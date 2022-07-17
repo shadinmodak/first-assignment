@@ -73,27 +73,40 @@ h2{
     font-size: 42px;
     text-align: center;
 }
-
+.flex-item:hover{
+    color: red;
+    background-color: #ec4b4b;
+}
 .active{
-    border: 2px solid rgba(255, 94, 0, 0.897);
+    border: 2px solid rgba(255, 0, 0, 0.897);
+    background-color: #fbe7e7;
+    border-radius: 5%;
+    height: 70px;
+    width: 185px;
 }
-
-.box{
-    width: 100vh;
-    height: 150px;
-    background-color: #b8b47cfd;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 240px;
+.wrapper{
+    display: flex;
+    background-color: #ec4b4b;
+    height: 182px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 180px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
 }
-
-.form-box input{
-    margin-top: 70px;    
-    padding: 10px;
+.wrapper .field input{
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 15px 0 0 10px;
+    font-size: 15px;
+    outline: none;
 }
 
 .footer{
-    margin-top: 300px;
+    margin-top: 103px;
     background-color: black;
     font-style: italic;
     color: #FF6633;
