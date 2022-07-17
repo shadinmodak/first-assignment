@@ -57,24 +57,27 @@ h1{
 h2{
     margin-top: 30px;
     padding: 30px;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 .flex-container{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    background-color: whitesmoke;
+    display: flex;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
 }
 
 .flex-item{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #fbe7e7;
     padding: 20px;
+    border-radius: 5px;
     font-size: 42px;
     text-align: center;
 }
 .flex-item:hover{
-    color: red;
+    color: ;
     background-color: #ec4b4b;
 }
 .active{
@@ -86,21 +89,20 @@ h2{
 }
 .wrapper{
     display: flex;
-    background-color: #ec4b4b;
+    background-color: #fff4d6;
     height: 182px;
     width: 700px;
+    margin: 0 auto;
     margin-top: 40px;
-    margin-left: 180px;
     align-items: center;
     justify-content: center;
     text-align: center;    
 }
 .wrapper .field input{
-    height: 100%;
-    width: 100%;
     border: 2px solid white;
-    border-radius: 2px;
-    padding: 15px 0 0 10px;
+    border-radius: 4px 0 0 4px;
+    margin-left: 0;
+    padding: 10px;
     font-size: 15px;
     outline: none;
 }
@@ -111,6 +113,17 @@ h2{
     font-style: italic;
     color: #FF6633;
     text-align: center;
+}
+
+.btn-1 {
+    padding: 12px 36px;
+    font-size: 15px;
+    background-color: #ff5959;
+    margin-left: -6px;
+    outline: none;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    color: #fbe7e7;
 }
 
 .footer p{
